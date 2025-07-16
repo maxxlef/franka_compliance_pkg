@@ -1,0 +1,27 @@
+force_bridge_node:
+  ros__parameters:
+    # Mass of the object/system in kilograms (0.0 if unused or unknown)
+    mass: 0.0
+    # Center of Mass coordinate in meters relative to panda_link8
+    com_x: 0.0875
+    com_y: -0.075
+    com_z: 0.0
+
+
+
+wrench_service_node:
+  ros__parameters:
+    # Force threshold along Z axis in Newtons to trigger events/actions
+    z_force_threshold: 1.0
+
+
+motion_smoother_node:
+  ros__parameters:
+    use_tf_input: false
+    input_topic: '/target_arm'
+    input_frame: 'object_frame'
+    output_topic: '/cartesian_compliance_controller/target_frame'
+    publish_rate: 10.0
+    step_distance: 0.004
+    timeout: 20.0
+
