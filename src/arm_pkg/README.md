@@ -25,7 +25,7 @@ This package expects runtime parameters such as:
 - Publish rate and step size for the motion smoother
 - Input and output topics for the motion smoother
 
-These parameters should be defined in a centralized configuration file. See [`/config/params.yaml`](TODO) for details.
+These parameters should be defined in a centralized configuration file. See [`/config/params.yaml`](https://github.com/maxxlef/arm_ws/blob/main/src/arm_pkg/config/params.yaml) for details.
 You can easily adjust them there without modifying codes.
 
 

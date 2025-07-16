@@ -17,11 +17,18 @@ wrench_service_node:
 
 motion_smoother_node:
   ros__parameters:
+    # true if you want to use tf input, false if you want to use a topic input
     use_tf_input: false
+    # Input topic for the target frame (if use_tf_input is false)
     input_topic: '/target_arm'
+    # Input frame for the target frame (if use_tf_input is true)
     input_frame: 'object_frame'
+    # Output topic for the target frame
+    # '/cartesian_compliance_controller/target_frame' to use cartesian compliance controller
     output_topic: '/cartesian_compliance_controller/target_frame'
+    # publish rate in Hz and step distance in meters, speed = publish_rate * step_distance
     publish_rate: 10.0
     step_distance: 0.004
-    timeout: 20.0
+    # timeout for the motion smoother in seconds
+    timeout: 60.0
 
