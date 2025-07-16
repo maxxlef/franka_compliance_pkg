@@ -1,5 +1,4 @@
-# arm_compliance_control
-
+# arm_pkg
 This ROS 2 (Humble) package provides C++ nodes for control a Franka Emika arm thanks to the cartesian compliance controller through the `ros2_control` framework.
 
 ## Overview
