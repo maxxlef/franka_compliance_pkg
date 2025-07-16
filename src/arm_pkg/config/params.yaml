@@ -26,7 +26,7 @@ motion_smoother_node:
     # Output topic for the target frame
     # '/cartesian_compliance_controller/target_frame' to use cartesian compliance controller
     output_topic: '/cartesian_compliance_controller/target_frame'
-    # publish rate in Hz and step distance in meters, speed = publish_rate * step_distance
+    # publish rate in Hz and step distance in meters, speed = publish_rate * step_distance (m/s)
     publish_rate: 10.0
     step_distance: 0.004
     # timeout for the motion smoother in seconds
