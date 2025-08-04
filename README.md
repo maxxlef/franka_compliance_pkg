@@ -7,7 +7,7 @@ You can test the arm with an interactive marker in RViz.
 
 ## Packages Overview
 
-- [franka_compliance_pkg](https://github.com/maxxlef/arm_ws/tree/main/src/franka_compliance_pkg): Handles compliance control, force sensing, and smooth motion planning. Includes nodes for force bridging and wrench services.
+- [franka_compliance_pkg](https://github.com/maxxlef/franka_compliance_pkg#overview-franka_compliance_pkg): Handles compliance control, force sensing, and smooth motion planning. Includes nodes for force bridging and wrench services.
 - [cartesian_controllers](https://github.com/fzi-forschungszentrum-informatik/cartesian_controllers): Provides Cartesian control for the Franka arm, enabling precise manipulation and interaction with the environment.
 - [franka_arm_ros2](https://github.com/tstoyanov/franka_arm_ros2): ROS 2 interface for the Franka Emika arm, facilitating communication and control.
 
