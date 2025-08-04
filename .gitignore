@@ -4,3 +4,4 @@
 /log
 /src/cartesian_controllers
 /src/franka_arm_ros2
+.DS_Store
