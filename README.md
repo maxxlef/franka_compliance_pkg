@@ -49,10 +49,10 @@ Delete `cartesian_controller_simulation` and `cartesian_controller_tests` before
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.
 
-- [`cartesian_compliance_controller`]([https://github.com/ros-controls/cartesian_compliance_controller](https://github.com/fzi-forschungszentrum-informatik/cartesian_controllers/blob/ros2/cartesian_controller_simulation/))  
+- [`cartesian_compliance_controller`](https://github.com/fzi-forschungszentrum-informatik/cartesian_controllers/blob/ros2/cartesian_controller_simulation/)  
   ➤ License: Apache 2.0
 
-- [`franka_ros2`]([https://github.com/frankaemika/franka_ros2](https://github.com/tstoyanov/franka_arm_ros2))  
+- [`franka_ros2`](https://github.com/tstoyanov/franka_arm_ros2) 
   ➤ License: BSD-2-Clause
 
 --- 
